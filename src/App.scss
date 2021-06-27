@@ -104,7 +104,7 @@ header {
         // width: 100%;
         opacity: 0;
         background-size: cover;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat !important;
         animation-name: backgroundEffect;
         animation-duration: 30s;
         animation-iteration-count: infinite;
@@ -211,7 +211,7 @@ header {
         height: 100%;
         p {
           margin-top: 100px;
-          font-size: 1rem;
+          font-size: 1.4rem;
         }
         h5 {
           margin-top: 160px;
@@ -225,11 +225,11 @@ header {
     .inner-header {
       height: 30px;
       .logo a {
-        font-size: 1.2rem;
+        font-size: 1.9rem;
       }
       .menu {
         button {
-          font-size: 1rem;
+          font-size: 1.6rem;
         }
       }
     }
@@ -239,11 +239,11 @@ header {
         // width: 100%;
         .wrapper {
           .menu-links {
-            top: 120px;
+            top: 140px;
             flex-direction: column;
             nav ul li {
-              font-size: 2rem;
-              height: 45px;
+              font-size: 2.5rem;
+              height: 60px;
               max-width: 560px;
             }
             .info {
@@ -260,7 +260,7 @@ header {
             position: fixed;
             bottom: 20px;
             margin-top: 20px;
-            font-size: 0.9rem;
+            font-size: 1rem;
             span {
               display: inline-block;
               overflow-wrap: break-word;
