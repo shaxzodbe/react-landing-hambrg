@@ -214,7 +214,8 @@ header {
           font-size: 1.4rem;
         }
         h5 {
-          margin-top: 160px;
+          font-size: 28px;
+          margin-top: 200px;
           padding-right: 60px;
         }
       }
@@ -251,7 +252,11 @@ header {
               padding: 0 50px 0 20px;
               width: 530px;
               h3 {
+                font-size: 1.6rem;
                 color: $black;
+              }
+              p {
+                font-size: 1.2rem;
               }
             }
           }
@@ -260,7 +265,7 @@ header {
             position: fixed;
             bottom: 20px;
             margin-top: 20px;
-            font-size: 1.5rem;
+            font-size: 1rem;
             span {
               display: inline-block;
               overflow-wrap: break-word;
